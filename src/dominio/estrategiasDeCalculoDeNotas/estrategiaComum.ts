@@ -16,8 +16,6 @@ export class EstrategiaComum implements EstrategiaDeCalculoDeNotas {
       (nota) => nota.bimestre == 7 || nota.bimestre == 8
     );
 
-    console.log(notasLancadas);
-
     const notaSemestre1: NotaCalculada = {
       bimestre: 1,
       codigo: "Bimestral",
